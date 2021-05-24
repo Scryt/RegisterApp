@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "server-dependencies": "cd backend && npm i",
+    "client-dependencies": "cd frontend && npm i",
+    "install-dependencies": "concurrently \"npm run server-dependencies\" \"npm run client-dependencies\"",
+    "database-prepare" : "cd backend && npm run create_db",
+    "client": "cd frontend && npm run start ",
+    "server": "cd backend && npm run start",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}

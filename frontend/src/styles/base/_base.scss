@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.correctIcon {
+  color: green;
+}
+
+.wrongIcon {
+  color: red;
+}
+
+#root {
+  height: 100%;
+}

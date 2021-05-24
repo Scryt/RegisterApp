@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.validationRules p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 1.3em;
+}
+
+.registrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}
+
+.registrationForm {
+  margin-bottom: 20px;
+}
+
+.registrationForm div input,
+.registrationForm div p {
+  margin: 7px;
+}
+
+.registrationForm div {
+  width: 100%;
+}
+
+.registrationForm div input {
+  width: 100%;
+  padding: 10px;
+
+  font-size: 3em
+}
+
+.registrationForm div p {
+  font-size: 2em;
+}
+
+.sendButton {
+  width: 30%;
+  padding: 10px;
+  margin: 15px;
+
+  font-size: 2em;
+
+  border-radius: 10px;
+  border: 1px solid grey;
+}

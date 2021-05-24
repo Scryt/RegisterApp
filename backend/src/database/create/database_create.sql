@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Users
+(
+    id       INTEGER PRIMARY KEY AUTOINCREMENT,
+    login    VARCHAR(64) NOT NULL,
+    password VARCHAR(64) NOT NULL,
+    CONSTRAINT `UK__Users__login` UNIQUE (login)
+);
